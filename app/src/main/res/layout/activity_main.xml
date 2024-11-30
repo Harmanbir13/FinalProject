@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- EditText for City input -->
+    <EditText
+        android:id="@+id/etCity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter City"
+        android:inputType="text" />
+
+    <!-- EditText for Radius input -->
+    <EditText
+        android:id="@+id/etRadius"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Radius (in km)"
+        android:inputType="number" />
+
+    <!-- Button to Search Events -->
+    <Button
+        android:id="@+id/btnSearch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Search Events"
+        android:layout_gravity="center" />
+
+    <!-- RecyclerView to display events -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvEvents"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <!-- Button to view saved events -->
+    <Button
+        android:id="@+id/btnSavedEvents"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Saved Events"
+        android:layout_gravity="center" />
+
+</LinearLayout>

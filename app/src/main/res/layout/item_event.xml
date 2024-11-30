@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="?android:attr/selectableItemBackground">
+
+    <!-- Event Name -->
+    <TextView
+        android:id="@+id/tvEventName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Event Name"
+        android:textSize="18sp"
+        android:textColor="#000"
+        android:layout_marginBottom="8dp"
+        android:fontFamily="sans-serif-medium"/>
+
+    <!-- Event Date -->
+    <TextView
+        android:id="@+id/tvEventDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Event Date"
+        android:textSize="16sp"
+        android:textColor="#777"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- Event Venue (Optional) -->
+    <TextView
+        android:id="@+id/tvEventVenue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Venue"
+        android:textSize="14sp"
+        android:textColor="#555"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- Event Price Range (Optional) -->
+    <TextView
+        android:id="@+id/tvEventPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Price Range"
+        android:textSize="14sp"
+        android:textColor="#555"
+        android:layout_marginBottom="8dp"/>
+</LinearLayout>
